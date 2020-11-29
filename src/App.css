@@ -1,0 +1,11 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.wrapper {
+    margin-top: 50px;
+}
