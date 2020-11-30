@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "exclude": [
+            {
+                "name": "John"
+            },
+            {
+                "email": "qwerty@gmail.com"
+            }
+        ],
+        "sort_by": []
+    }
+}

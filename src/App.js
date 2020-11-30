@@ -46,7 +46,7 @@ const App = ({ store }) => {
 
     const changeJSON = (e) => {
         dispatch(convert(json1, json2));
-        setResult(JSON.stringify(store.getState().branch1.result));
+        setResult(JSON.stringify(store.getState().branch1.result, null, '\t'));
     }
 
 
@@ -62,7 +62,7 @@ const App = ({ store }) => {
                 <Input type='file' onChange={(e) => addJSON2(e)} />
             </div>
             <div className='wrapper'>
-                <button onClick={(e) => changeJSON(e)}>Change JSON</button>
+                <Button variant='contained' onClick={(e) => changeJSON(e)}>Change JSON</Button>
             </div>
             <div className='wrapper'>
                 {result !== 'null' && result}

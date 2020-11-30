@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "exclude": [
+            {
+                "qwe": 45
+            }
+        ],
+        "sort_by": [
+            "name",
+            "email"
+        ]
+    }
+}
